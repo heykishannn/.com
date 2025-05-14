@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAS - Official App Download</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rubik+Glitch&family=Bebas+Neue&display=swap');
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 25px 10px 10px;
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Bebas Neue', sans-serif;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .search-bar { text-align: center; margin: 15px 0; }
+    .search-bar input { width: 80%; padding: 10px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; }
+    .banner-img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+      max-height: 250px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background: #222;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .get-link { text-align: center; font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+    .apps-section { padding: 20px; }
+    .app-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .app-card h3 { margin: 0; }
+    .app-card p { font-size: 14px; color: #333; }
+    .download-btn {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+    .back-btn {
+      margin: 10px;
+      display: inline-block;
+      background: #444;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    #appsPage { display: none; padding: 20px; }
+  </style>
+</head>
+<body><header>Welcome to NAS</header>
+<div class="search-bar">
+  <input type="text" placeholder="Search apps..." />
+</div>
+<img class="banner-img" src="https://via.placeholder.com/1200x250?text=NAS+Banner" alt="NAS Banner" /><nav>
+  <a onclick="showHome()">Home</a>
+  <a onclick="showAppsPage()">Apps</a>
+</nav><div id="homePage">
+  <div class="get-link">Get App Download Link</div>  <section class="apps-section">
+    <h2>Suggested Apps</h2>
+    <div class="app-card">
+      <h3>Free Fire Battle</h3>
+      <p>Experience the ultimate battle royale action.</p>
+      <button class="download-btn">Download APK</button>
+    </div>
+    <div class="app-card">
+      <h3>PRO War Clash</h3>
+      <p>Multiplayer squad battles with real cash rewards.</p>
+      <button class="download-btn">Download APK</button>
+    </div>
+    <div class="app-card">
+      <h3>BGMI Arena</h3>
+      <p>Dominate the battleground with your squad.</p>
+      <button class="download-btn">Download APK</button>
+    </div>
+  </section>
+</div><div id="appsPage">
+  <a href="#" class="back-btn" onclick="showHome()">Back</a>
+  <section class="apps-section">
+    <h2>All Available Apps</h2>
+    <div class="app-card">
+      <h3>Free Fire Battle</h3>
+      <p>Experience the ultimate battle royale action.</p>
+      <button class="download-btn">Download APK</button>
+    </div>
+    <div class="app-card">
+      <h3>PRO War Clash</h3>
+      <p>Multiplayer squad battles with real cash rewards.</p>
+      <button class="download-btn">Download APK</button>
+    </div>
+    <div class="app-card">
+      <h3>BGMI Arena</h3>
+      <p>Dominate the battleground with your squad.</p>
+      <button class="download-btn">Download APK</button>
+    </div>
+  </section>
+</div><footer>
+  No copyright issues. All apps are shared for public use only. |
+  © 2025 NAS
+</footer><script>
+  function showAppsPage() {
+    document.getElementById('homePage').style.display = 'none';
+    document.getElementById('appsPage').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+  function showHome() {
+    document.getElementById('appsPage').style.display = 'none';
+    document.getElementById('homePage').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+</script></body>
+</html>
