@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.download-section {
+    padding: 40px 0;
+}
+
+.download-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.download-section p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #1e7e34;
+}
+
+.download-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.android-button {
+    background-color: #a4c639;
+}
+
+.android-button:hover {
+    background-color: #829a2e;
+}
+
+.ios-button {
+    background-color: #000;
+}
+
+.ios-button:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
