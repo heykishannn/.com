@@ -1,85 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #0a0a0a;
-  font-family: 'Orbitron', sans-serif;
-  color: #ffffff;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  min-height: 100vh;
-  text-align: center;
-  max-width: 412px;
-  margin-inline: auto;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #fff; /* White background */
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    background-image: url('https://i.ibb.co/4w3Q1YGR/Blue-Technology-Background-Wallpaper-Blue-Science-Background-Image-And-Wallpaper-for-Free-Download.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 95%;
+    max-width: 950px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.banner-welcome {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: linear-gradient(to right, #007bff, #6610f2); /* Blue to purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-nas {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    background: linear-gradient(to right, #e65c00, #f9d423); /* Orange to yellow gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-studio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #007bff, #6610f2); /* Blue to purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.studio-short-bio {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Same font as Welcome */
+    font-size: 0.9em; /* Smaller size */
+    font-weight: bold;
+    background: linear-gradient(to right, #ff4500, #ff8c00); /* Red-orange to orange gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.download-section {
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 30px;
 }
 
-.main-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
-  width: 100%; /* Full width for centering */
+.studio-description {
+    text-align: center;
+    color: #777;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 700px;
+    font-size: 0.9em;
+    line-height: 1.6;
 }
 
-.nas-banner {
-  width: 80%; /* Adjust as needed */
-  max-width: 500px;
-  margin-bottom: 20px;
-  position: relative;
+.add-placeholder {
+    width: 80%;
+    max-width: 700px;
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+    padding: 40px; /* Adjusted padding */
+    text-align: center;
+    margin-bottom: 20px; /* Adjusted margin */
 }
 
-.nas-banner img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  background-color: #333; /* Placeholder background */
-  min-height: 100px; /* Minimum height */
-  object-fit: cover;
+.add-option {
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-bottom: 10px; /* Add some space between buttons */
 }
 
-.nas-banner .banner-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 48px; /* Larger NAS text */
-  font-weight: bold;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
 }
 
-.sub-name {
-  font-size: 12px;
-  color: #8ff3ff;
-  margin-bottom: 30px;
-  letter-spacing: 1px;
+.download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #008000; /* Green color for button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.7); /* Green glowing shadow */
 }
 
-.main-button {
-  background-color: #00f6ff;
-  color: #000;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 14px 28px;
-  border: none;
-  border-radius: 12px;
-  text-decoration: none;
-  box-shadow: 0 0 15px #00f6ff;
-  transition: all 0.3s ease;
+.download-button:hover {
+    background-color: #006400; /* Darker green on hover */
 }
 
-.main-button:hover {
-  background-color: #00e0f0;
-  box-shadow: 0 0 20px #00e0f0;
+.spacer {
+    height: 50vh; /* Adjusted spacer height */
+    width: 100%;
+}
+
+.footer {
+    background-color: #333;
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
