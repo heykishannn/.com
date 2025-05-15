@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #fff; /* White background */
+    background-color: #fff;
     color: #555;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body {
 }
 
 .banner-container {
-    background-image: <a href="https://ibb.co/VcZH2NTY"><img src="https://i.ibb.co/Mx48Mh7k/gradient-blur-pink-blue-abstract-background-53876-117324.webp" alt="gradient-blur-pink-blue-abstract-background-53876-117324" border="0"></a>
+    background-image: url('https://i.ibb.co/Mx48Mh7k/gradient-blur-pink-blue-abstract-background-53876-117324.webp');
     background-size: cover;
     background-position: center;
     color: white;
@@ -37,9 +37,16 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    background: linear-gradient(to right, #007bff, #6610f2); /* Blue to purple gradient */
+    background: linear-gradient(to right, #007bff, #6610f2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.banner-nas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-nas {
@@ -48,7 +55,7 @@ body {
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 5px;
-    background: linear-gradient(to right, #e65c00, #f9d423); /* Orange to yellow gradient */
+    background: linear-gradient(to right, #e65c00, #f9d423);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -58,7 +65,7 @@ body {
     font-size: 1.1em;
     font-weight: bold;
     letter-spacing: 1px;
-    background: linear-gradient(to right, #007bff, #6610f2); /* Blue to purple gradient */
+    background: linear-gradient(to right, #007bff, #6610f2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -67,10 +74,10 @@ body {
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif; /* Same font as Welcome */
-    font-size: 0.9em; /* Smaller size */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
     font-weight: bold;
-    background: linear-gradient(to right, #ff4500, #ff8c00); /* Red-orange to orange gradient */
+    background: linear-gradient(to right, #ff4500, #ff8c00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -111,9 +118,9 @@ body {
     max-width: 700px;
     background-color: #f9f9f9;
     border: 1px dashed #ccc;
-    padding: 40px; /* Adjusted padding */
+    padding: 40px;
     text-align: center;
-    margin-bottom: 20px; /* Adjusted margin */
+    margin-bottom: 20px;
 }
 
 .add-option {
@@ -124,7 +131,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 0.9em;
-    margin-bottom: 10px; /* Add some space between buttons */
+    margin-bottom: 10px;
 }
 
 p {
@@ -136,22 +143,22 @@ p {
 .download-button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #008000; /* Green color for button */
+    background-color: #008000;
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
     font-size: 1.2em;
     transition: background-color 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 128, 0, 0.7); /* Green glowing shadow */
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.7);
 }
 
 .download-button:hover {
-    background-color: #006400; /* Darker green on hover */
+    background-color: #006400;
 }
 
 .spacer {
-    height: 50vh; /* Adjusted spacer height */
+    height: 50vh;
     width: 100%;
 }
 
