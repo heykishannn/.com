@@ -23,13 +23,38 @@ body {
 /* Headings */
 .main-title {
   font-size: 24px;
-  margin-bottom: 15px;
+  margin-bottom: 20px; /* Increased margin */
   letter-spacing: 2px;
+  width: 100%; /* Ensure it takes full width to be at the top in flex column */
+}
+
+.nas-banner {
+  width: 80%; /* Adjust width as needed */
+  max-width: 500px; /* Optional: set a maximum width */
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.nas-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px; /* Matching button border-radius */
+}
+
+.nas-banner .banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px; /* Adjust size as needed */
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .nas-name {
-  font-size: 18px;
-  margin: 5px 0;
+  display: none; /* Hide the original NAS text */
 }
 
 .sub-name {
