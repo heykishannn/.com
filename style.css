@@ -7,35 +7,32 @@ body {
   font-family: 'Orbitron', sans-serif;
   color: #ffffff;
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* Center items vertically */
-  align-items: center;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   min-height: 100vh;
   text-align: center;
   max-width: 412px;
   margin-inline: auto;
 }
 
-/* Main container */
-.welcome-container {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
   width: 100%;
+  padding: 20px;
   box-sizing: border-box;
 }
 
-/* Headings */
 .main-title {
   font-size: 24px;
   margin-bottom: 20px;
   letter-spacing: 2px;
-  width: 100%;
+  width: 100%; /* Full width for centering */
 }
 
 .nas-banner {
-  width: 80%;
+  width: 80%; /* Adjust as needed */
   max-width: 500px;
   margin-bottom: 20px;
   position: relative;
@@ -46,10 +43,9 @@ body {
   width: 100%;
   height: auto;
   border-radius: 12px;
-  /* Placeholder banner style */
-  background-color: #222; /* Dark background for placeholder */
-  min-height: 100px; /* Minimum height for the banner */
-  object-fit: cover; /* Cover the area, may crop */
+  background-color: #333; /* Placeholder background */
+  min-height: 100px; /* Minimum height */
+  object-fit: cover;
 }
 
 .nas-banner .banner-text {
@@ -57,7 +53,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 48px; /* Larger NAS text */
   font-weight: bold;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
@@ -70,7 +66,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* Button Styling */
 .main-button {
   background-color: #00f6ff;
   color: #000;
