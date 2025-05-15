@@ -58,6 +58,27 @@ h1 {
   box-shadow: 0 0 30px #ff007f;
 }
 
+/* --- Final GET APPS Button Styling --- */
+.get-apps-button {
+  margin-top: 40px;
+  padding: 12px 28px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: 2px solid #ff0080;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #ff0080;
+}
+
+.get-apps-button:hover {
+  background-color: #ff0080;
+  color: black;
+}
+
 /* --- Mobile View (max-width: 768px) --- */
 @media (max-width: 768px) {
   h1 {
@@ -82,5 +103,12 @@ h1 {
     padding: 12px 30px;
     font-size: 16px;
     margin-top: 30px;
+  }
+
+  .get-apps-button {
+    font-size: 18px;
+    padding: 14px 32px;
+    display: block;
+    margin: 40px auto 0 auto;
   }
 }
