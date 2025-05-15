@@ -1,9 +1,9 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
 }
 
 .container {
@@ -14,10 +14,11 @@ body {
 }
 
 .banner {
-    background-color: #007bff;
-    color: white;
+    background-color: #212121; /* Darker banner */
+    color: #fff;
     padding: 40px 0;
     margin-bottom: 30px;
+    border-bottom: 3px solid #00bcd4; /* Accent color */
 }
 
 .banner .container {
@@ -30,16 +31,17 @@ body {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
-    border-radius: 8px; /* थोड़ा गोल कोना */
+    border-radius: 8px;
 }
 
 .banner h1 {
-    font-size: 3em;
+    font-size: 3.5em; /* Larger title */
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000000; /* Text shadow for depth */
 }
 
 .banner p {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .download-section {
@@ -47,12 +49,14 @@ body {
 }
 
 .download-section h2 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin-bottom: 20px;
+    color: #00bcd4; /* Accent color */
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .download-section p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-bottom: 30px;
 }
 
@@ -64,27 +68,30 @@ body {
 
 .download-button {
     display: inline-block;
-    background-color: #28a745;
-    color: white;
+    background-color: #00bcd4; /* Accent color */
+    color: #fff;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     transition: background-color 0.3s ease;
+    border: 2px solid #00bcd4;
 }
 
 .download-button:hover {
-    background-color: #1e7e34;
+    background-color: #008ba3; /* Darker accent color on hover */
+    border-color: #008ba3;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #212121;
+    color: #fff;
     padding: 20px 0;
     text-align: center;
     margin-top: 50px;
+    border-top: 3px solid #00bcd4;
 }
 
 footer p {
-    font-size: 0.9em;
+    font-size: 1em;
 }
