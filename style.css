@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #0ff; /* Cyan color like in the image */
+    margin-bottom: 50px;
+}
+
+.logo-section {
+    margin-bottom: 50px;
+}
+
+.logo-box {
+    border: 2px solid #0ff; /* Cyan border */
+    padding: 40px 80px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.nas-logo {
+    font-size: 5em;
+    color: #f0f; /* Magenta color */
+    margin-bottom: 10px;
+}
+
+.studio-name {
+    font-size: 1em;
+    color: #fff;
+}
+
+.get-apps-button {
+    display: inline-block;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #f0f; /* Magenta color */
+    border: 2px solid #f0f; /* Magenta border */
+    border-radius: 5px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+
+.get-apps-button:hover {
+    background-color: #f0f2; /* Slightly transparent magenta on hover */
+    color: #fff;
+}
+
+/* Optional: Add some glow effect */
+.logo-box, header h1, .get-apps-button {
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8); /* Cyan glow */
+}
+
+.nas-logo {
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8); /* Magenta glow */
+}
+
+.get-apps-button {
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.5); /* Magenta glow */
+}
