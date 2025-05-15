@@ -9,41 +9,42 @@ body {
   padding: 0;
 }
 
+/* --- Default (Desktop First) --- */
 h1 {
-  margin-top: 60px;
+  margin-top: 80px;
   color: #00f6ff;
-  font-size: 28px;
-  letter-spacing: 2px;
+  font-size: 40px;
+  letter-spacing: 3px;
 }
 
 .neon-box {
-  margin: 50px auto;
-  padding: 40px;
+  margin: 60px auto;
+  padding: 50px;
   border: 4px solid #00f6ff;
   border-radius: 20px;
-  max-width: 500px;
+  max-width: 600px;
   box-shadow: 0 0 20px #00f6ff;
 }
 
 .neon-box h2 {
-  font-size: 80px;
+  font-size: 100px;
   margin: 0;
   color: #ff007f;
 }
 
 .neon-box p {
-  font-size: 20px;
+  font-size: 24px;
   color: #cccccc;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 .neon-button {
   display: inline-block;
-  margin-top: 40px;
-  padding: 15px 40px;
+  margin-top: 50px;
+  padding: 18px 50px;
   border: 2px solid #ff007f;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 2px;
   text-decoration: none;
   border-radius: 15px;
@@ -57,20 +58,20 @@ h1 {
   box-shadow: 0 0 30px #ff007f;
 }
 
-/* -------- Responsive Mobile View -------- */
-@media (max-width: 600px) {
+/* --- Mobile View (max-width: 768px) --- */
+@media (max-width: 768px) {
   h1 {
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 24px;
+    margin-top: 40px;
   }
 
   .neon-box {
-    padding: 25px;
+    padding: 30px 20px;
     max-width: 90%;
   }
 
   .neon-box h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .neon-box p {
@@ -80,5 +81,6 @@ h1 {
   .neon-button {
     padding: 12px 30px;
     font-size: 16px;
+    margin-top: 30px;
   }
 }
