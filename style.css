@@ -5,54 +5,56 @@ body {
   padding: 0;
   background-color: #0a0a0a;
   font-family: 'Orbitron', sans-serif;
-  color: #fff;
+  color: #ffffff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  align-items: center;
+  height: 100vh;
   text-align: center;
+  max-width: 412px;
+  margin-inline: auto;
 }
 
-/* Page Heading */
-.main-heading {
-  font-size: 36px;
-  margin-bottom: 40px;
-  color: white;
+/* Main container */
+.welcome-container {
+  padding: 20px;
+}
+
+/* Headings */
+.main-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.nas-name {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.sub-name {
+  font-size: 12px;
+  color: #8ff3ff;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
 }
 
 /* Button Styling */
-.get-apps-button {
-  font-size: 24px;
-  padding: 16px 36px;
-  background-color: black;
-  color: white;
-  border: 3px solid #00f6ff;
-  border-radius: 10px;
-  text-decoration: none;
+.main-button {
+  display: inline-block;
+  background-color: #00f6ff;
+  color: #000;
+  font-size: 18px;
   font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
   box-shadow: 0 0 15px #00f6ff;
   transition: all 0.3s ease;
 }
 
-.get-apps-button:hover {
-  background-color: #00f6ff;
-  color: black;
-}
-
-/* Lock width like Android screen */
-body, html {
-  max-width: 412px; /* Pixel 6 typical width */
-  margin: auto;
-}
-
-/* Optional media query to ensure consistent size on other phones */
-@media (max-width: 480px) {
-  .main-heading {
-    font-size: 32px;
-  }
-  .get-apps-button {
-    font-size: 20px;
-    padding: 14px 28px;
-  }
+.main-button:hover {
+  background-color: #00e0f0;
+  box-shadow: 0 0 20px #00e0f0;
 }
