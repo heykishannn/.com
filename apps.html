@@ -16,13 +16,12 @@
             text-align: center;
         }
         .download-title {
-            font-family: 'Roboto', sans-serif;
             font-size: 1.5em;
             font-weight: bold;
             color: #008000;
             margin-bottom: 30px;
         }
-        .download-link {
+        .download-link, .download-button {
             display: inline-block;
             padding: 15px 30px;
             background-color: #008000;
@@ -31,34 +30,19 @@
             border-radius: 8px;
             font-weight: bold;
             margin-bottom: 20px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
         }
-        .download-link:hover {
+        .download-link:hover, .download-button:hover {
             background-color: #006400;
         }
     </style>
 </head>
 <body>
     <h1 class="download-title">DOWNLOAD OUR APPS</h1>
-    <a href="CalcvibeX.apk" class="download-link" download>Download CalcvibeX APK</a>
+
+    <a href="CalcvibeX.apk" class="download-link" download>Download CalcvibeX APK</a><br><br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1-TDOJgCc0I_FtSzBeuoR0g7EAW2VUcqh" class="download-button" download>Download Memory Match Game</a>
 </body>
 </html>
-<a href="https://drive.google.com/uc?export=download&id=1-TDOJgCc0I_FtSzBeuoR0g7EAW2VUcqh" class="download-button">Download Game</a>
-
-<style>
-  .download-button {
-    display: inline-block;
-    background-color: #28a745;
-    color: white;
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    font-family: sans-serif;
-    transition: background-color 0.3s ease;
-  }
-
-  .download-button:hover {
-    background-color: #218838;
-  }
-</style>
